@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/border_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_centerVertical="true" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/dialog_design" >
+
+            <EditText
+                android:id="@+id/urlText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/edit_text_margin"
+                android:layout_marginBottom="@dimen/edit_text_margin"
+                android:layout_marginLeft="@dimen/edit_text_margin"
+                android:layout_marginRight="@dimen/edit_text_margin"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/transparent"
+                android:focusable="true"
+                android:maxLines="5"
+                android:textSize="@dimen/url_text_size"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@drawable/cursor_green"
+                android:hint="@string/internet_input" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="@dimen/send_button_width"
+            android:layout_height="@dimen/send_button_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:focusable="true"
+            android:background="@color/transparent"
+            android:text="@string/send"
+            android:textSize="@dimen/send_text_size" />
+
+    </LinearLayout>
+</RelativeLayout>

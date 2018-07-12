@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="border_margin">25dp</dimen>
+    <dimen name="view_margin">22dp</dimen>
+
+    <!-- video_fragment -->
+    <dimen name="buffer_icon_size">120dp</dimen>
+    <dimen name="panel_margin">37dp</dimen>
+
+    <!-- audio_fragment -->
+    <dimen name="song_item_height">69dp</dimen>
+    <dimen name="album_title_text">40sp</dimen>
+    <dimen name="song_title_text">23sp</dimen>
+    <dimen name="song_artist_text">20sp</dimen>
+    <dimen name="song_margin">15dp</dimen>
+    <dimen name="object_margin">5dp</dimen>
+    <dimen name="mode_button_width">80dp</dimen>
+    <dimen name="mode_button_height">45dp</dimen>
+    <dimen name="audio_repeat_text">22sp</dimen>
+
+    <!-- image_fragment -->
+    <dimen name="name_text_size">37sp</dimen>
+    <dimen name="title_text_margin">10dp</dimen>
+    <dimen name="none_text_size">30sp</dimen>
+
+    <!-- internet_fragment -->
+    <dimen name="url_text_width">800dp</dimen>
+    <dimen name="url_text_height">200dp</dimen>
+    <dimen name="url_text_size">30sp</dimen>
+    <dimen name="send_text_size">50sp</dimen>
+    <dimen name="send_button_width">160sp</dimen>
+    <dimen name="send_button_height">90sp</dimen>
+    <dimen name="edit_text_margin">15dp</dimen>
+
+    <!-- spinner_fragment -->
+    <dimen name="progress_bar_size">50dp</dimen>
+    <dimen name="progress_bar_margin">5dp</dimen>
+
+    <!-- none_fragment -->
+    <dimen name="nothing_text_size">30sp</dimen>
+
+    <!-- video_panel -->
+    <dimen name="video_title_text">45sp</dimen>
+    <dimen name="video_time_text">30sp</dimen>
+    <dimen name="video_panel_icon">66dp</dimen>
+    <dimen name="video_icon_margin">54dp</dimen>
+    <dimen name="video_text_margin">21dp</dimen>
+
+    <!-- audio_panel -->
+    <dimen name="audio_title_text">30sp</dimen>
+    <dimen name="audio_time_text">20sp</dimen>
+    <dimen name="audio_panel_icon">44dp</dimen>
+    <dimen name="audio_icon_margin">36dp</dimen>
+    <dimen name="audio_text_margin">14dp</dimen>
+
+    <!-- dialog_view -->
+    <dimen name="dialog_view_margin">15dp</dimen>
+    <dimen name="dialog_text_size">30sp</dimen>
+    <dimen name="dialog_button_width">150dp</dimen>
+    <dimen name="dialog_button_margin">6dp</dimen>
+    <dimen name="button_text_size">19sp</dimen>
+
+</resources>

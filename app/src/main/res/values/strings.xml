@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TTIMediaStore</string>
+
+    <string name="catalog_video">VIDEO</string>
+    <string name="catalog_audio">AUDIO</string>
+    <string name="catalog_image">IMAGE</string>
+    <string name="catalog_other">OTHER</string>
+
+    <string name="video_all">ALL VIDEOS</string>
+    <string name="video_delete">CLEAR VIDEO RECORD</string>
+    <string name="audio_artists">ARTISTS</string>
+    <string name="audio_albums">ALBUMS</string>
+    <string name="audio_genres">GENRES</string>
+    <string name="audio_all">ALL SONGS</string>
+    <string name="image_all">ALL IMAGES</string>
+    <string name="other_ntfs">NTFS DISK</string>
+    <string name="other_lan">LOCAL NETWORK</string>
+    <string name="other_internet">INTERNET</string>
+    <string name="other_preferences">PREFERENCES</string>
+
+    <!-- CatalogFragment -->
+    <string name="app_title">TTI Media Store</string>
+    <string name="not_found">No media found.</string>
+
+    <!-- ItemGridFragment -->
+    <string name="iris_not_found">not found.</string>
+
+    <!-- video_fragment -->
+    <string name="video_error">Can\'t play this video.</string>
+    <string name="video_record">Would you want to continue playback at&#160;</string>
+    <string name="record_delete">Would you want to delete all video records?</string>
+    <string name="delete_complete">Deleted completed.</string>
+    <string name="record_empty">No records found.</string>
+    <string name="record_start">Bookmark :&#160;</string>
+
+    <!-- audio_fragment -->
+    <string name="audio_error">Can\'t play this audio.</string>
+    <string name="audio_playing">Now Playing</string>
+    <string name="audio_pause">Pause</string>
+    <string name="act_playing">Play Music</string>
+    <string name="act_pause">Pause Music</string>
+    <string name="shuffle_on">Shuffle is on</string>
+    <string name="shuffle_off">Shuffle is off</string>
+    <string name="repeat_on">Repeat is on</string>
+    <string name="repeat_off">Repeat is off</string>
+    <string name="repeat_loop">Repeat current song</string>
+    <string name="repeat_all">Repeat all songs</string>
+
+    <!-- image_fragment -->
+    <string name="image_error">Image not found.</string>
+
+    <!-- internet_fragment -->
+    <string name="send">SEND</string>
+    <string name="internet_input">Please type the Media\'s URL.</string>
+    <string name="input_error">Please type the text.</string>
+    <string name="media_error">Can\'t play this media.</string>
+
+    <!-- upnp_fragment -->
+    <string name="no_network">No Network connection.</string>
+    <string name="error_folder">Error while listening folders.</string>
+    <string name="upnp_loading">The device is still being loaded, please wait and try again.</string>
+    <string name="info_could_not_start_activity">Could not start activity (not sure why, please contact developer)</string>
+    <string name="info_no_handler">No application for handling this content type available</string>
+
+    <!-- search_fragment -->
+    <string name="search_results">Search Results</string>
+    <string name="speech_error">An error occurred while speech recognizing.</string>
+
+    <!-- dialog -->
+    <string name="ok_button">OK</string>
+    <string name="yes_button">YES</string>
+    <string name="no_button">NO</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/video_panel_design"
+    android:focusable="true" >
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/video_text_margin"
+        android:layout_marginRight="@dimen/video_text_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_weight="1"
+        android:textSize="@dimen/video_title_text"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/video_text_margin"
+            android:layout_gravity="center_vertical"
+            android:gravity="end|center"
+            android:textSize="@dimen/video_time_text"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/progressBar"
+                style="android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:thumbTint="@color/focus_green"
+                android:focusable="true"
+                android:indeterminate="false" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/video_text_margin"
+            android:layout_gravity="center_vertical"
+            android:gravity="start|center"
+            android:textSize="@dimen/video_time_text"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/backwardButton"
+            android:layout_width="@dimen/video_panel_icon"
+            android:layout_height="@dimen/video_panel_icon"
+            android:focusable="true"
+            android:layout_toStartOf="@+id/playpauseButton"
+            android:background="@color/transparent" />
+
+        <ImageButton
+            android:id="@+id/playpauseButton"
+            android:layout_width="@dimen/video_panel_icon"
+            android:layout_height="@dimen/video_panel_icon"
+            android:layout_marginLeft="@dimen/video_icon_margin"
+            android:layout_marginRight="@dimen/video_icon_margin"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:focusable="true"
+            android:background="@color/transparent"  />
+
+        <ImageButton
+            android:id="@+id/forwardButton"
+            android:layout_width="@dimen/video_panel_icon"
+            android:layout_height="@dimen/video_panel_icon"
+            android:focusable="true"
+            android:layout_toEndOf="@+id/playpauseButton"
+            android:background="@color/transparent" />
+
+        <ImageButton
+            android:id="@+id/subtitlesButton"
+            android:layout_width="@dimen/video_panel_icon"
+            android:layout_height="@dimen/video_panel_icon"
+            android:layout_marginEnd="@dimen/video_text_margin"
+            android:focusable="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/transparent" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TTIMediaStore</string>
+
+    <string name="catalog_video">影片</string>
+    <string name="catalog_audio">音樂</string>
+    <string name="catalog_image">圖片</string>
+    <string name="catalog_other">其他</string>
+
+    <string name="video_all">全部的影片</string>
+    <string name="video_delete">刪除播放記錄</string>
+    <string name="audio_artists">演唱者</string>
+    <string name="audio_albums">專輯</string>
+    <string name="audio_genres">類型</string>
+    <string name="audio_all">全部的樂曲</string>
+    <string name="image_all">全部的圖片</string>
+    <string name="other_ntfs">NTFS 磁碟</string>
+    <string name="other_lan">區域網路</string>
+    <string name="other_internet">網際網路</string>
+    <string name="other_preferences">設定</string>
+
+    <!-- CatalogFragment -->
+    <string name="app_title">TTI Media Store</string>
+    <string name="not_found">找不到媒體。</string>
+
+    <!-- ItemGridFragment -->
+    <string name="iris_not_found">找不到此媒體。</string>
+
+    <!-- video_fragment -->
+    <string name="video_error">無法撥放這部影片。</string>
+    <string name="video_record">從前一次的紀錄繼續播放嗎？&#160;</string>
+    <string name="record_delete">刪除全部的紀錄嗎？</string>
+    <string name="delete_complete">刪除完成。</string>
+    <string name="record_empty">無播放紀錄。</string>
+    <string name="record_start">紀錄：</string>
+
+    <!-- audio_fragment -->
+    <string name="audio_error">無法撥放這首樂曲。</string>
+    <string name="audio_playing">播放中</string>
+    <string name="audio_pause">暫停</string>
+    <string name="act_playing">音樂播放</string>
+    <string name="act_pause">音樂暫停</string>
+    <string name="shuffle_on">隨機播放</string>
+    <string name="shuffle_off">解除隨機播放</string>
+    <string name="repeat_on">重複播放</string>
+    <string name="repeat_off">解除重複播放</string>
+    <string name="repeat_loop">重複播放現在樂曲</string>
+    <string name="repeat_all">重複播放所有樂曲</string>
+
+    <!-- image_fragment -->
+    <string name="image_error">找不到這張圖片。</string>
+
+    <!-- internet_fragment -->
+    <string name="send">傳送</string>
+    <string name="internet_input">請輸入媒體網址。</string>
+    <string name="input_error">請輸入文字。</string>
+    <string name="media_error">無法撥放這部媒體。</string>
+
+    <!-- upnp_fragment -->
+    <string name="no_network">無網路連線。</string>
+    <string name="error_folder">於存取檔案時發生錯誤。</string>
+    <string name="upnp_loading">裝置正在載入中，請稍候。</string>
+    <string name="info_could_not_start_activity">Could not start activity (not sure why, please contact developer)</string>
+    <string name="info_no_handler">No application for handling this content type available</string>
+
+    <!-- search_fragment -->
+    <string name="search_results">搜尋結果</string>
+    <string name="speech_error">於語音辨識時發生錯誤。</string>
+
+    <!-- dialog -->
+    <string name="ok_button">好</string>
+    <string name="yes_button">是</string>
+    <string name="no_button">否</string>
+
+</resources>

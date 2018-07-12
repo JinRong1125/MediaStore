@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    maven { url 'http://4thline.org/m2' }
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.tti.ttimediastore"
+        minSdkVersion 24
+        targetSdkVersion 26
+        versionCode 9
+        versionName "1.2.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/beans.xml'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:leanback-v17:26.1.0'
+    compile 'com.android.support:preference-leanback-v17:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile "com.android.support:support-core-utils:26.1.0"
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.google.android.exoplayer:exoplayer:2.6.1'
+    compile 'com.google.code.gson:gson:2.8.2'
+
+    compile 'com.android.support:multidex:1.0.2'
+    compile 'com.github.bumptech.glide:glide:4.3.1'
+    compile 'net.skoumal.fragmentback:fragment-back:0.2.3'
+/*
+    // NTFS
+    compile 'com.github.mjdev:libaums:0.5.5'
+    compile 'com.github.magnusja:java-fs:0.1.3'
+    compile 'log4j:log4j:1.2.17'
+    compile 'de.mindpipe.android:android-logging-log4j:1.0.3'
+*/
+    // DLNA
+    compile group: 'org.fourthline.cling', name: 'cling-core', version:'2.1.1'
+    compile group: 'org.fourthline.cling', name: 'cling-support', version:'2.1.1'
+    compile group: 'org.eclipse.jetty', name: 'jetty-server', version:'8.1.18.v20150929'
+    compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version:'8.1.18.v20150929'
+    compile group: 'org.eclipse.jetty', name: 'jetty-client', version:'8.1.18.v20150929'
+    compile group: 'org.slf4j', name: 'slf4j-jdk14', version:'1.7.14'
+    compile group: 'com.koushikdutta.urlimageviewhelper', name: 'urlimageviewhelper', version:'1.0.4'
+/*
+    // AirTunes
+    compile 'org.jboss.netty:netty:3.2.4.Final'
+    compile 'org.bouncycastle:bcprov-ext-jdk16:1.46'
+    compile 'net.iharder:base64:2.3.8'
+    compile files('libs/jmdns-3.5.0.jar')
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
+*/
+    compile project(':exoplayer-flac')
+}

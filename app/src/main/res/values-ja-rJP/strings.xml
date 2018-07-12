@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TTIMediaStore</string>
+
+    <string name="catalog_video">ビデオ</string>
+    <string name="catalog_audio">オーディオ</string>
+    <string name="catalog_image">写真</string>
+    <string name="catalog_other">その他</string>
+
+    <string name="video_all">すべてのビデオ</string>
+    <string name="video_delete">視聴履歴を削除する</string>
+    <string name="audio_artists">アーティスト</string>
+    <string name="audio_albums">アルバム</string>
+    <string name="audio_genres">ジャンル</string>
+    <string name="audio_all">すべての楽曲</string>
+    <string name="image_all">すべての写真</string>
+    <string name="other_ntfs">NTFS ディスク</string>
+    <string name="other_lan">ローカル</string>
+    <string name="other_internet">インターネット</string>
+    <string name="other_preferences">設定</string>
+
+    <!-- CatalogFragment -->
+    <string name="app_title">TTI Media Store</string>
+    <string name="not_found">メディアが見つかりません。</string>
+
+    <!-- ItemGridFragment -->
+    <string name="iris_not_found">が見つかりません。</string>
+
+    <!-- video_fragment -->
+    <string name="video_error">このビデオを再生できません。</string>
+    <string name="video_record">前回の続きから再生しますか？&#160;</string>
+    <string name="record_delete">すべての履歴を削除しますか？</string>
+    <string name="delete_complete">削除完了しました。</string>
+    <string name="record_empty">視聴履歴がありません。</string>
+    <string name="record_start">履歴：</string>
+
+    <!-- audio_fragment -->
+    <string name="audio_error">この楽曲を再生できません。</string>
+    <string name="audio_playing">再生中</string>
+    <string name="audio_pause">停止</string>
+    <string name="act_playing">音楽を再生します</string>
+    <string name="act_pause">音楽を停止します</string>
+    <string name="shuffle_on">シャッフルします</string>
+    <string name="shuffle_off">シャッフルを解除します</string>
+    <string name="repeat_on">リピートします</string>
+    <string name="repeat_off">リピートを解除します</string>
+    <string name="repeat_loop">単曲をリピートします</string>
+    <string name="repeat_all">全曲をリピートします</string>
+
+    <!-- image_fragment -->
+    <string name="image_error">この写真が見つかりません。</string>
+
+    <!-- internet_fragment -->
+    <string name="send">送信</string>
+    <string name="internet_input">メディアのURLを入力してください。</string>
+    <string name="input_error">テキストを入力してください。</string>
+    <string name="media_error">このメディアを再生できません。</string>
+
+    <!-- upnp_fragment -->
+    <string name="no_network">ネットワークに接続していません。</string>
+    <string name="error_folder">ファイルの読み込み中にエラーが発生しました。</string>
+    <string name="upnp_loading">ただいま読み込み中です。しばらくお待ちください。</string>
+    <string name="info_could_not_start_activity">Could not start activity (not sure why, please contact developer)</string>
+    <string name="info_no_handler">No application for handling this content type available</string>
+
+    <!-- search_fragment -->
+    <string name="search_results">検索結果</string>
+    <string name="speech_error">音声認識中にエラーが発生しました。</string>
+
+    <!-- dialog -->
+    <string name="ok_button">はい</string>
+    <string name="yes_button">はい</string>
+    <string name="no_button">いいえ</string>
+
+</resources>
